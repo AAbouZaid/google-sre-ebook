@@ -1,5 +1,5 @@
 # LTS Image
-FROM debian:8-slim
+FROM debian:buster-slim
 
 LABEL maintainer="docker@captnemo.in"
 
