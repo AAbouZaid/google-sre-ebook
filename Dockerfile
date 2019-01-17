@@ -1,7 +1,7 @@
 # LTS Image
-FROM ubuntu:18.04
+FROM debian:8-slim
 
-LABEL maintainer="github.google-sre-ebook@captnemo.in"
+LABEL maintainer="docker@captnemo.in"
 
 ARG DEBIAN_FRONTEND="noninteractive"
 
